@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class ex0211
+{
+	public static void main (String[] args)
+	{
+	int a, b, c;
+	double xp, xn; 
+	Scanner input = new Scanner (System.in);
+	
+	System.out.println("Numa expressao: Ax² + Bx + C");
+	System.out.print("Qual o valor de A? );
+	a=input.nextInt();
+	System.out.print("Qual o valor de B? );
+	b=input.nextInt();
+	System.out.print("Qual o valor de C? );
+	c=input.nextInt();
+	
+	xp = (-b + math.sqrt((4*a*c)))/(2*a);
+	xn = (-b - math.sqrt((4*a*c)))/(2*a);
+	
+	System.out.printf("x =  "+xp+" ou x= "xn);
+	}
+}

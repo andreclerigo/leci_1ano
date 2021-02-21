@@ -1,0 +1,8 @@
+import java.util.*:
+
+public class ex064{
+	public static void main (String args[]){
+		int[] notas;
+		
+	}
+}

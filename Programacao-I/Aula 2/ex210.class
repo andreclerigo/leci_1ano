@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+public class ex0210
+{
+	public static void main (String[] args)
+	{
+	
+}
+}
