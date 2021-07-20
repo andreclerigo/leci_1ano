@@ -1,2 +1,1 @@
-# Programação-I (P-I)
-### Atualmente conhecido por Fundamentos de Programação
+# Programação-I (P-I), atualmente Fundamentos de Programação
