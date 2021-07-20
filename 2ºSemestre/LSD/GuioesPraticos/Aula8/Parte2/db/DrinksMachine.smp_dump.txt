@@ -1,0 +1,9 @@
+
+State Machine - |DrinksFSM|pState
+Name pState.s5 pState.s4 pState.s3 pState.s2 pState.s1 pState.s0 
+pState.s0 0 0 0 0 0 0 
+pState.s1 0 0 0 0 1 1 
+pState.s2 0 0 0 1 0 1 
+pState.s3 0 0 1 0 0 1 
+pState.s4 0 1 0 0 0 1 
+pState.s5 1 0 0 0 0 1 

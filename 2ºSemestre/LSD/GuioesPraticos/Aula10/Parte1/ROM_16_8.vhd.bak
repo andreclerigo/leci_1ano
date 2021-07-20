@@ -1,0 +1,8 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity ROM_16_8 is
+end ROM_16_8;
+
+architecture Behavioral of ROM_16_8 is
+end ROM_16_8;

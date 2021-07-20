@@ -1,0 +1,28 @@
+|ShiftRegisterLoadN
+sin => data_out.DATAA
+clk => data_out[0].CLK
+clk => data_out[1].CLK
+clk => data_out[2].CLK
+clk => data_out[3].CLK
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+reset => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+load => data_out.OUTPUTSELECT
+enable => data_out.OUTPUTSELECT
+enable => data_out.OUTPUTSELECT
+enable => data_out.OUTPUTSELECT
+enable => data_out.OUTPUTSELECT
+dataIn[0] => data_out.DATAB
+dataIn[1] => data_out.DATAB
+dataIn[2] => data_out.DATAB
+dataIn[3] => data_out.DATAB
+dataOut[0] <= data_out[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= data_out[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= data_out[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= data_out[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

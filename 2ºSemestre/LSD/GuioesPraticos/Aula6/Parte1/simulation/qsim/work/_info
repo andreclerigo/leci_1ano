@@ -1,0 +1,100 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ANDRECLERIGO/Desktop/LSD/Aula6/Parte1/simulation/qsim
+Eclkdividern
+Z1 w1586945579
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 ?bDUB9Db2N8iCCALNL;CT3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 c]VUMXSEi8Z`KM1bem<:B3
+R0
+Z10 8ShiftRegister_Demo.vho
+Z11 FShiftRegister_Demo.vho
+l0
+L36
+VZj3EoM^IzO;Of<iB]`I?42
+!s100 9S?bcllWA_Qh0J?LHQ1]J0
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1586945582
+!i10b 1
+Z14 !s108 1586945582.000000
+Z15 !s90 -work|work|ShiftRegister_Demo.vho|
+Z16 !s107 ShiftRegister_Demo.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 11 clkdividern 0 22 Zj3EoM^IzO;Of<iB]`I?42
+l66
+L43
+VSH_?o]J`5f:e^8F@1e7Oe0
+!s100 U;<GBHMWkaHfO2[KdgWn;2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Eclkdividern_vhd_vec_tst
+Z19 w1586945578
+R7
+R8
+R0
+Z20 8Waveform.vwf.vht
+Z21 FWaveform.vwf.vht
+l0
+L31
+VKRle4QZZL;UZNRFVb6NkF2
+!s100 7g>2^_QcBUGNVfjikaRVG1
+R12
+32
+R13
+!i10b 1
+R14
+Z22 !s90 -work|work|Waveform.vwf.vht|
+Z23 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Aclkdividern_arch
+R7
+R8
+DEx4 work 23 clkdividern_vhd_vec_tst 0 22 KRle4QZZL;UZNRFVb6NkF2
+l44
+L33
+Vb9M40RA`]g^]a=BWXA0ll1
+!s100 GcA=cic<igL83hk^0DODL0
+R12
+32
+R13
+!i10b 1
+R14
+R22
+R23
+!i113 1
+R17
+R18

@@ -1,0 +1,63 @@
+|ROM_Demo
+RESET => counterupdownn:b2v_inst2.reset
+CLOCK => counterupdownn:b2v_inst2.clk
+DataOut[0] <= rom_16_8:b2v_inst.dataOut[0]
+DataOut[1] <= rom_16_8:b2v_inst.dataOut[1]
+DataOut[2] <= rom_16_8:b2v_inst.dataOut[2]
+DataOut[3] <= rom_16_8:b2v_inst.dataOut[3]
+DataOut[4] <= rom_16_8:b2v_inst.dataOut[4]
+DataOut[5] <= rom_16_8:b2v_inst.dataOut[5]
+DataOut[6] <= rom_16_8:b2v_inst.dataOut[6]
+DataOut[7] <= rom_16_8:b2v_inst.dataOut[7]
+
+
+|ROM_Demo|ROM_16_8:b2v_inst
+adress[0] => Mux0.IN19
+adress[0] => Mux1.IN19
+adress[0] => Mux2.IN19
+adress[0] => Mux3.IN19
+adress[0] => Mux4.IN19
+adress[1] => Mux0.IN18
+adress[1] => Mux1.IN18
+adress[1] => Mux2.IN18
+adress[1] => Mux3.IN18
+adress[1] => Mux4.IN18
+adress[2] => Mux0.IN17
+adress[2] => Mux1.IN17
+adress[2] => Mux2.IN17
+adress[2] => Mux3.IN17
+adress[2] => Mux4.IN17
+adress[3] => Mux0.IN16
+adress[3] => Mux1.IN16
+adress[3] => Mux2.IN16
+adress[3] => Mux3.IN16
+adress[3] => Mux4.IN16
+dataOut[0] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[4] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[5] <= <GND>
+dataOut[6] <= <GND>
+dataOut[7] <= <GND>
+
+
+|ROM_Demo|CounterUpDownN:b2v_inst2
+clk => s_count[0].CLK
+clk => s_count[1].CLK
+clk => s_count[2].CLK
+clk => s_count[3].CLK
+upDown => s_count.OUTPUTSELECT
+upDown => s_count.OUTPUTSELECT
+upDown => s_count.OUTPUTSELECT
+upDown => s_count.OUTPUTSELECT
+reset => s_count.OUTPUTSELECT
+reset => s_count.OUTPUTSELECT
+reset => s_count.OUTPUTSELECT
+reset => s_count.OUTPUTSELECT
+count[0] <= s_count[0].DB_MAX_OUTPUT_PORT_TYPE
+count[1] <= s_count[1].DB_MAX_OUTPUT_PORT_TYPE
+count[2] <= s_count[2].DB_MAX_OUTPUT_PORT_TYPE
+count[3] <= s_count[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

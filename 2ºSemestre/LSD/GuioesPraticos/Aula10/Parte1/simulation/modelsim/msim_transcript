@@ -1,0 +1,134 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do ROM_Demo_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_16_8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:53 on May 13,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_16_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_16_8
+# -- Compiling architecture Behavioral of ROM_16_8
+# End time: 13:26:53 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/CounterUpDownN.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:53 on May 13,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/CounterUpDownN.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity CounterUpDownN
+# -- Compiling architecture Behavioral of CounterUpDownN
+# ** Warning: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/CounterUpDownN.vhd(15): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 13:26:53 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vcom -93 -work work {C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Demo.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:26:53 on May 13,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Demo.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM_Demo
+# -- Compiling architecture bdf_type of ROM_Demo
+# End time: 13:26:53 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:04 on May 13,2020
+# vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM_Tb
+# -- Compiling architecture Stimulus of ROM_Tb
+# ** Error: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd(10): (vcom-1360) Array type of "s_clk" does not have an index constraint.
+# -- Loading entity ROM_Demo
+# ** Error: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd(18): (vcom-1136) Unknown identifier "s_outputs".
+# ** Error: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd(17): Signal "s_reset" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd(16): Signal "s_clk" is type ieee.std_logic_1164.STD_LOGIC_VECTOR; expecting type ieee.std_logic_1164.STD_LOGIC.
+# ** Error: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd(22): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd(24): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd(30): Enumeration literal '1' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd(32): Enumeration literal '0' is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd(35): VHDL Compiler exiting
+# End time: 13:27:04 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 9, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:27:54 on May 13,2020
+# vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM_Tb
+# -- Compiling architecture Stimulus of ROM_Tb
+# -- Loading entity ROM_Demo
+# End time: 13:27:54 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.rom_tb(stimulus)
+# vsim work.rom_tb(stimulus) 
+# Start time: 13:28:04 on May 13,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.rom_tb(stimulus)
+# Loading work.rom_demo(bdf_type)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_16_8(behavioral)
+# Loading work.counterupdownn(behavioral)
+add wave -position end  sim:/rom_tb/s_clk
+add wave -position end  sim:/rom_tb/s_reset
+add wave -position end  sim:/rom_tb/s_outputs
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /rom_tb/rom/b2v_inst
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 100 ns  Iteration: 3  Instance: /rom_tb/rom/b2v_inst
+vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:29:37 on May 13,2020
+# vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM_Tb
+# -- Compiling architecture Stimulus of ROM_Tb
+# -- Loading entity ROM_Demo
+# End time: 13:29:37 on May 13,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.rom_tb(stimulus)
+# End time: 13:29:49 on May 13,2020, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 2
+# vsim work.rom_tb(stimulus) 
+# Start time: 13:29:49 on May 13,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.rom_tb(stimulus)
+# Loading work.rom_demo(bdf_type)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_16_8(behavioral)
+# Loading work.counterupdownn(behavioral)
+add wave -position end  sim:/rom_tb/s_clk
+add wave -position end  sim:/rom_tb/s_reset
+add wave -position end  sim:/rom_tb/s_outputs
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /rom_tb/rom/b2v_inst
+# End time: 13:30:38 on May 13,2020, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 1

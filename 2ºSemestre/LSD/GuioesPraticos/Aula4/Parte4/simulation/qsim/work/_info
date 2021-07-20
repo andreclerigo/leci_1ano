@@ -1,0 +1,233 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ANDRECLERIGO/Desktop/LSD/Aula4/Parte4/simulation/qsim
+Efreqdivider
+Z1 w1585137682
+Z2 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z3 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 ?bDUB9Db2N8iCCALNL;CT3
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z9 DPx6 altera 28 altera_primitives_components 0 22 c]VUMXSEi8Z`KM1bem<:B3
+R0
+Z10 8FreqDivider_Demo.vho
+Z11 FFreqDivider_Demo.vho
+l0
+L79
+VViHWXPZfzPnc>Bk16?kHh0
+!s100 Ao=lOZeOT5=dd6h8WlzI91
+Z12 OV;C;10.5b;63
+32
+Z13 !s110 1585137683
+!i10b 1
+Z14 !s108 1585137683.000000
+Z15 !s90 -work|work|FreqDivider_Demo.vho|
+Z16 !s107 FreqDivider_Demo.vho|
+!i113 1
+Z17 o-work work
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+DEx4 work 11 freqdivider 0 22 ViHWXPZfzPnc>Bk16?kHh0
+l415
+L124
+VNO542P:mzF5^T@8RQDBAo3
+!s100 I`g^z_Bm0AMGXGQz1B0LY1
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Efreqdivider_demo
+Z19 w1585135607
+R4
+R2
+R6
+R7
+R8
+R3
+R0
+R10
+R11
+l0
+L77
+VjRAZReaA012lgQc6<8RUQ3
+!s100 dne72[N;lQY>AfgiEhQ812
+R12
+32
+Z20 !s110 1585135608
+!i10b 1
+Z21 !s108 1585135608.000000
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R4
+R2
+R6
+R7
+R8
+R3
+DEx4 work 16 freqdivider_demo 0 22 jRAZReaA012lgQc6<8RUQ3
+l177
+L122
+V8Cm1RW;i4Qd?0_lD7NGOV0
+!s100 >jXCfl0l:8NS1`[?i0mE80
+R12
+32
+R20
+!i10b 1
+R21
+R15
+R16
+!i113 1
+R17
+R18
+Efreqdivider_demo_vhd_vec_tst
+Z22 w1585135606
+R7
+R8
+R0
+Z23 8Waveform1.vwf.vht
+Z24 FWaveform1.vwf.vht
+l0
+L31
+Vb1<5floal`EkQb04S>d:a1
+!s100 No;_io1o0?abaN9zgO<hV2
+R12
+32
+R20
+!i10b 1
+R21
+Z25 !s90 -work|work|Waveform1.vwf.vht|
+Z26 !s107 Waveform1.vwf.vht|
+!i113 1
+R17
+R18
+Afreqdivider_demo_arch
+R7
+R8
+DEx4 work 28 freqdivider_demo_vhd_vec_tst 0 22 b1<5floal`EkQb04S>d:a1
+l46
+L33
+V6CNKcXWFjhfF9bK`:RQgz1
+!s100 <[>ffAVaH07=LY@c`]2[21
+R12
+32
+R20
+!i10b 1
+R21
+R25
+R26
+!i113 1
+R17
+R18
+Efreqdivider_vhd_vec_tst
+Z27 w1585137681
+R7
+R8
+R0
+Z28 8Waveform.vwf.vht
+Z29 FWaveform.vwf.vht
+l0
+L31
+V9[@i?>96UZGNK>FkhLCHN1
+!s100 meTmjb3o43f]_O>RE[T;i1
+R12
+32
+R13
+!i10b 1
+R14
+Z30 !s90 -work|work|Waveform.vwf.vht|
+Z31 !s107 Waveform.vwf.vht|
+!i113 1
+R17
+R18
+Afreqdivider_arch
+R7
+R8
+Z32 DEx4 work 23 freqdivider_vhd_vec_tst 0 22 9[@i?>96UZGNK>FkhLCHN1
+l46
+L33
+VG^gOHC4lKDTl4:dOhNmGN1
+!s100 CcMmJgc5M7U;P_h:XW<9M2
+R12
+32
+R13
+!i10b 1
+R14
+R30
+R31
+!i113 1
+R17
+R18
+Ehard_block
+R1
+R4
+R2
+R6
+R7
+R8
+R3
+R0
+R10
+R11
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R4
+R2
+R6
+R7
+R8
+R3
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18

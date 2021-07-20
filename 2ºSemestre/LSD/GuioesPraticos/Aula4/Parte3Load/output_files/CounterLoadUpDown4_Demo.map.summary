@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Mar 25 10:36:40 2020
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : CounterLoadUpDown4_Demo
+Top-level Entity Name : CounterLoadUpDown4_Demo
+Family : Cyclone IV E
+Total logic elements : 21
+    Total combinational functions : 21
+    Dedicated logic registers : 4
+Total registers : 4
+Total pins : 35
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

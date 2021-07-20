@@ -1,0 +1,171 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/simulation/modelsim
+Ecounterupdownn
+Z1 w1589367125
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/CounterUpDownN.vhd
+Z6 FC:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/CounterUpDownN.vhd
+l0
+L5
+V7<8M:Y^]S^_ZD1GNiH;Vn1
+!s100 XL^8zCPfjRZbT^HLD1l<k2
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1589372813
+!i10b 1
+Z9 !s108 1589372813.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/CounterUpDownN.vhd|
+Z11 !s107 C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/CounterUpDownN.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+DEx4 work 14 counterupdownn 0 22 7<8M:Y^]S^_ZD1GNiH;Vn1
+l17
+L13
+V_fH>7djIFl6_1X]fY<P5^0
+!s100 X;2<:1e=X=QzG<G692VMG1
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Erom_16_8
+Z14 w1589371786
+R2
+R3
+R4
+R0
+Z15 8C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_16_8.vhd
+Z16 FC:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_16_8.vhd
+l0
+L5
+Vhed[maCeXCIBCm[`7i:gQ0
+!s100 92?kKZ3FgK3z`a8Ha=nNB2
+R7
+31
+R8
+!i10b 1
+R9
+Z17 !s90 -reportprogress|300|-93|-work|work|C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_16_8.vhd|
+Z18 !s107 C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_16_8.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+DEx4 work 8 rom_16_8 0 22 hed[maCeXCIBCm[`7i:gQ0
+l18
+L12
+VU@CPcS0YmbNg8OW?1CcoC3
+!s100 43?<jN4_l7hjoI1j157YA1
+R7
+31
+R8
+!i10b 1
+R9
+R17
+R18
+!i113 1
+R12
+R13
+Erom_demo
+Z19 w1589372393
+R3
+R4
+R0
+Z20 8C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Demo.vhd
+Z21 FC:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Demo.vhd
+l0
+L24
+Va^;jjog[m^[62AGU0Y5Cb3
+!s100 [jlXC]Ei10l`Vd_5A53053
+R7
+31
+R8
+!i10b 1
+R9
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Demo.vhd|
+Z23 !s107 C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Demo.vhd|
+!i113 1
+R12
+R13
+Abdf_type
+R3
+R4
+Z24 DEx4 work 8 rom_demo 0 22 a^;jjog[m^[62AGU0Y5Cb3
+l58
+L33
+VdoA9kj7>Yi4UH<dNLO1[E2
+!s100 0:lL=D8HgzNYXKjCOS^fe1
+R7
+31
+R8
+!i10b 1
+R9
+R22
+R23
+!i113 1
+R12
+R13
+Erom_tb
+Z25 w1589372969
+R3
+R4
+R0
+Z26 8C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd
+Z27 FC:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd
+l0
+L4
+V>FLzXd8>zRBkGGzVVPn462
+!s100 JZK]T7X5Ch2=NjHDi:dUI2
+R7
+32
+Z28 !s110 1589372977
+!i10b 1
+Z29 !s108 1589372977.000000
+Z30 !s90 -reportprogress|300|-work|work|C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd|
+Z31 !s107 C:/Users/ANDRECLERIGO/Desktop/LSD/Aula10/Parte1/ROM_Tb.vhd|
+!i113 1
+Z32 o-work work
+R13
+Astimulus
+R24
+R3
+R4
+Z33 DEx4 work 6 rom_tb 0 22 >FLzXd8>zRBkGGzVVPn462
+l14
+L7
+V[jhPNHQZ?3A=V@<2@N]220
+!s100 AS?Z[^E5UWMG:k_2NVLec3
+R7
+32
+R28
+!i10b 1
+R29
+R30
+R31
+!i113 1
+R32
+R13

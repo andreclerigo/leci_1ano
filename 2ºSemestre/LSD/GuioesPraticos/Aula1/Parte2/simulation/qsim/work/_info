@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ANDRECLERIGO/Desktop/LSD/Aula1/Parte2/simulation/qsim
+Eand2gate
+Z1 w1582113480
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+R0
+Z8 8AND2Gate.vho
+Z9 FAND2Gate.vho
+l0
+L77
+VKR3WmVU`Rnga[fON1G;J50
+!s100 OJ97LH6i]CPBKdcAbWSC43
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1582113481
+!i10b 1
+Z12 !s108 1582113481.000000
+Z13 !s90 -work|work|AND2Gate.vho|
+Z14 !s107 AND2Gate.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 8 and2gate 0 22 KR3WmVU`Rnga[fON1G;J50
+l116
+L91
+VH<0U;kWNef_;GPng_og:_0
+!s100 LZmLAj;S5l;;3a:ej3b0`2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eand2gate_vhd_vec_tst
+Z17 w1582113479
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+VH8mFDa`DcETlh4`Gol:C@1
+!s100 ^M0I9`aebNHgQD[URo]R11
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform.vwf.vht|
+Z21 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Aand2gate_arch
+R5
+R6
+Z22 DEx4 work 20 and2gate_vhd_vec_tst 0 22 H8mFDa`DcETlh4`Gol:C@1
+l46
+L33
+VTMOg_:zjT<M;K>0D?h:RR3
+!s100 [IFk6BJDfNGY^ikES7n_h1
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L34
+VOgIg9T_BR7joedFDVM>H13
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 OgIg9T_BR7joedFDVM>H13
+l64
+L50
+V`^CmQg<48W[ez[JL_5@Yn2
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

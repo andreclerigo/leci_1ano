@@ -1,0 +1,92 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/simulation/modelsim
+Ealu16
+Z1 w1587554880
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16.vhd
+Z6 FC:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16.vhd
+l0
+L5
+VX1n]bcO30_`ne<9OY0J[i2
+!s100 W5BfiWZkKe>6zAIdf=Q0Y3
+Z7 OV;C;10.5b;63
+31
+Z8 !s110 1587554918
+!i10b 1
+Z9 !s108 1587554918.000000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16.vhd|
+Z11 !s107 C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16.vhd|
+!i113 1
+Z12 o-93 -work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 5 alu16 0 22 X1n]bcO30_`ne<9OY0J[i2
+l17
+L13
+VJFGHRdk@`ILH2eH2Ha[nl3
+!s100 ?Q1=[BN8Bg`>[C>knK@9]3
+R7
+31
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ealu16_tb
+Z15 w1587554593
+R3
+R4
+R0
+Z16 8C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16_Tb.vhd
+Z17 FC:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16_Tb.vhd
+l0
+L4
+VJ?SC6g<kQRUAo]eNISoTD0
+!s100 5JC]d<:9IfXOd6o[f3]8?3
+R7
+32
+Z18 !s110 1587554929
+!i10b 1
+Z19 !s108 1587554929.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16_Tb.vhd|
+Z21 !s107 C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16_Tb.vhd|
+!i113 1
+Z22 o-work work
+R13
+Astimulus
+R2
+R14
+R3
+R4
+Z23 DEx4 work 8 alu16_tb 0 22 J?SC6g<kQRUAo]eNISoTD0
+l15
+L7
+Z24 Vg^^B64aoh@j1F8hOP0H;R2
+Z25 !s100 <R6D1I]ZTDU?0C<8MG9:?2
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R22
+R13

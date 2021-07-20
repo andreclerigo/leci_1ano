@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 15 16:56:28 2020
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : CombShiftUnit_Demo
+Top-level Entity Name : CombShiftUnit
+Family : Cyclone IV E
+Total logic elements : 76
+    Total combinational functions : 76
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 22
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

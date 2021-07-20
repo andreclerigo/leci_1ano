@@ -1,0 +1,24 @@
+|FlipFlop_Demo
+LEDR[0] <= FlipFlopD_Demo:inst3.LEDR[0]
+KEY[0] => FlipFlopD_Demo:inst3.KEY[0]
+SW[0] => FlipFlopD_Demo:inst3.SW[0]
+SW[1] => FlipFlopD_Demo:inst3.SW[1]
+SW[2] => FlipFlopD_Demo:inst3.SW[2]
+
+
+|FlipFlop_Demo|FlipFlopD_Demo:inst3
+SW[0] => flipflopd:ff_d.d
+SW[1] => flipflopd:ff_d.set
+SW[2] => flipflopd:ff_d.reset
+KEY[0] => flipflopd:ff_d.clk
+LEDR[0] <= flipflopd:ff_d.q
+
+
+|FlipFlop_Demo|FlipFlopD_Demo:inst3|FlipFlopD:ff_d
+clk => q~reg0.CLK
+set => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d => q.DATAA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

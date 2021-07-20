@@ -1,0 +1,68 @@
+# Reading C:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do BinUDCntEnRst4_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte2Nova/BinUDCntEnRst4.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:03:54 on Apr 22,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte2Nova/BinUDCntEnRst4.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BinUDCntEnRst4
+# -- Compiling architecture Behavioral of BinUDCntEnRst4
+# End time: 12:03:54 on Apr 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte2Nova/BinUDCntEnRst4_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:04:25 on Apr 22,2020
+# vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte2Nova/BinUDCntEnRst4_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BinUDCntEnRst4_Tb
+# -- Compiling architecture Stimulus of BinUDCntEnRst4_Tb
+# -- Loading entity BinUDCntEnRst4
+# End time: 12:04:25 on Apr 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte2Nova/BinUDCntEnRst4_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 12:04:26 on Apr 22,2020
+# vcom -reportprogress 300 -work work C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte2Nova/BinUDCntEnRst4_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity BinUDCntEnRst4_Tb
+# -- Compiling architecture Stimulus of BinUDCntEnRst4_Tb
+# -- Loading entity BinUDCntEnRst4
+# End time: 12:04:26 on Apr 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.binudcntenrst4_tb
+# vsim work.binudcntenrst4_tb 
+# Start time: 12:04:31 on Apr 22,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.binudcntenrst4_tb(stimulus)
+# Loading work.binudcntenrst4(behavioral)
+add wave -position end  sim:/binudcntenrst4_tb/s_reset
+add wave -position end  sim:/binudcntenrst4_tb/s_clk
+add wave -position end  sim:/binudcntenrst4_tb/s_enable
+add wave -position end  sim:/binudcntenrst4_tb/s_upDown_n
+add wave -position end  sim:/binudcntenrst4_tb/s_cntOut
+run
+# End time: 12:05:04 on Apr 22,2020, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0

@@ -1,0 +1,46 @@
+ibrary IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity BinDecoder7SegBCD is
+	port(binInputR : in  std_logic_vector(3 downto 0);
+		  binInputM : in  std_logic_vector(3 downto 0);
+		  decOut_n : out std_logic_vector(6 downto 0);
+		  decOut2_n: out std_logic_vector(6 downto 0);
+		  decOut3_n: out std_logic_vector(6 downto 0));
+end BinDecoder7SegBCD;
+
+architecture Behavioral of BinDecoder7SegBCD is
+	signal mDecimal  : unsigned;
+begin
+	mDecimal <= unsigned(binInputM);
+	process
+	begin
+	if (binInputM = "0000") then --Engloba tudo menos multiplicacao acima de 15
+		decOut3_n <="1000000"; --0
+		decOut2_n <="1111001" when (binInputR = "1010") else  --1                 
+						"1111001" when (binInputR = "1011") else  --1                 
+						"1111001" when (binInputR = "1100") else  --1 
+						"1111001" when (binInputR = "1101") else  --1
+						"1111001" when (binInputR = "1110") else  --1                
+						"1111001" when (binInputR = "1111") else  --1                
+						"1000000";                                --0
+						
+		decOut_n <= "1111001" when (binInputR = "0001") else  --1
+						"0100100" when (binInputR = "0010") else  --2
+						"0110000" when (binInputR = "0011") else  --3                 
+						"0011001" when (binInputR = "0100") else  --4                 
+						"0010010" when (binInputR = "0101") else  --5                 
+						"0000010" when (binInputR = "0110") else  --6                 
+						"1111000" when (binInputR = "0111") else  --7                 
+						"0000000" when (binInputR = "1000") else  --8                 
+						"0010000" when (binInputR = "1001") else  --9                 
+						"1000000" when (binInputR = "1010") else  --0                 
+						"1111001" when (binInputR = "1011") else  --1                 
+						"0100100" when (binInputR = "1100") else  --2 
+						"0110000" when (binInputR = "1101") else  --3
+						"0011001" when (binInputR = "1110") else  --4                 
+						"0010010" when (binInputR = "1111") else  --5                 
+						"1000000";										   --0
+	end if;
+	end process;
+end Behavioral;

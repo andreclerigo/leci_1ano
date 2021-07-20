@@ -1,0 +1,74 @@
+|Register_Demo
+LEDG[0] <= Register8:inst.dataOut[0]
+LEDG[1] <= Register8:inst.dataOut[1]
+LEDG[2] <= Register8:inst.dataOut[2]
+LEDG[3] <= Register8:inst.dataOut[3]
+LEDG[4] <= Register8:inst.dataOut[4]
+LEDG[5] <= Register8:inst.dataOut[5]
+LEDG[6] <= Register8:inst.dataOut[6]
+LEDG[7] <= Register8:inst.dataOut[7]
+SW[0] => Register8:inst.dataIn[0]
+SW[0] => LEDR[0].DATAIN
+SW[1] => Register8:inst.dataIn[1]
+SW[1] => LEDR[1].DATAIN
+SW[2] => Register8:inst.dataIn[2]
+SW[2] => LEDR[2].DATAIN
+SW[3] => Register8:inst.dataIn[3]
+SW[3] => LEDR[3].DATAIN
+SW[4] => Register8:inst.dataIn[4]
+SW[4] => LEDR[4].DATAIN
+SW[5] => Register8:inst.dataIn[5]
+SW[5] => LEDR[5].DATAIN
+SW[6] => Register8:inst.dataIn[6]
+SW[6] => LEDR[6].DATAIN
+SW[7] => Register8:inst.dataIn[7]
+SW[7] => LEDR[7].DATAIN
+SW[8] => Register8:inst.wrEn
+SW[8] => LEDR[8].DATAIN
+KEY[0] => Register8:inst.clk
+LEDR[0] <= SW[0].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[1] <= SW[1].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[2] <= SW[2].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[3] <= SW[3].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[4] <= SW[4].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[5] <= SW[5].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[6] <= SW[6].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[7] <= SW[7].DB_MAX_OUTPUT_PORT_TYPE
+LEDR[8] <= SW[8].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Register_Demo|Register8:inst
+wrEn => dataOut[0]~reg0.ENA
+wrEn => dataOut[1]~reg0.ENA
+wrEn => dataOut[2]~reg0.ENA
+wrEn => dataOut[3]~reg0.ENA
+wrEn => dataOut[4]~reg0.ENA
+wrEn => dataOut[5]~reg0.ENA
+wrEn => dataOut[6]~reg0.ENA
+wrEn => dataOut[7]~reg0.ENA
+clk => dataOut[0]~reg0.CLK
+clk => dataOut[1]~reg0.CLK
+clk => dataOut[2]~reg0.CLK
+clk => dataOut[3]~reg0.CLK
+clk => dataOut[4]~reg0.CLK
+clk => dataOut[5]~reg0.CLK
+clk => dataOut[6]~reg0.CLK
+clk => dataOut[7]~reg0.CLK
+dataIn[0] => dataOut[0]~reg0.DATAIN
+dataIn[1] => dataOut[1]~reg0.DATAIN
+dataIn[2] => dataOut[2]~reg0.DATAIN
+dataIn[3] => dataOut[3]~reg0.DATAIN
+dataIn[4] => dataOut[4]~reg0.DATAIN
+dataIn[5] => dataOut[5]~reg0.DATAIN
+dataIn[6] => dataOut[6]~reg0.DATAIN
+dataIn[7] => dataOut[7]~reg0.DATAIN
+dataOut[0] <= dataOut[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= dataOut[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= dataOut[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= dataOut[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[4] <= dataOut[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[5] <= dataOut[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[6] <= dataOut[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+dataOut[7] <= dataOut[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

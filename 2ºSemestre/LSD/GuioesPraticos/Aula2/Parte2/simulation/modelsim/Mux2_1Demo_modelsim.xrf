@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/ANDRECLERIGO/Desktop/LSD/Aula2/Parte2/Mux2_1.vhd
+source_file = 1, C:/Users/ANDRECLERIGO/Desktop/LSD/Aula2/Parte2/Waveform.vwf
+source_file = 1, C:/Users/ANDRECLERIGO/Desktop/LSD/Aula2/Parte2/Mux2_1Demo.bdf
+source_file = 1, c:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/17.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/ANDRECLERIGO/Desktop/LSD/Aula2/Parte2/db/Mux2_1Demo.cbx.xml
+design_name = hard_block
+design_name = Mux2_1Demo
+instance = comp, \LEDR[0]~output\, LEDR[0]~output, Mux2_1Demo, 1
+instance = comp, \SW[0]~input\, SW[0]~input, Mux2_1Demo, 1
+instance = comp, \SW[1]~input\, SW[1]~input, Mux2_1Demo, 1
+instance = comp, \KEY[0]~input\, KEY[0]~input, Mux2_1Demo, 1
+instance = comp, \inst2|output~0\, inst2|output~0, Mux2_1Demo, 1

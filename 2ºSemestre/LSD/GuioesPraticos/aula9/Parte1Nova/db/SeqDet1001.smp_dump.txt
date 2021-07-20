@@ -1,0 +1,7 @@
+
+State Machine - |SeqDetFSM|pState
+Name pState.S100 pState.S10 pState.S1 pState.INIT 
+pState.INIT 0 0 0 0 
+pState.S1 0 0 1 1 
+pState.S10 0 1 0 1 
+pState.S100 1 0 0 1 

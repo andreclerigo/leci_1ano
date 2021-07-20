@@ -1,0 +1,148 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/simulation/modelsim
+Ealu16
+Z1 w1587555333
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 N5CzKW88F^ShIK@<7Vek12
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 K8IbX`K5[Y1gJUKg2X_071
+R0
+Z8 8ALU16_7_1200mv_85c_slow.vho
+Z9 FALU16_7_1200mv_85c_slow.vho
+l0
+L77
+VkRSBi_U4;YjlD;2PKcj>g0
+!s100 OnGDOLoZXVKVA5Mde_H:D2
+Z10 OV;C;10.5b;63
+31
+Z11 !s110 1587556198
+!i10b 1
+Z12 !s108 1587556198.000000
+Z13 !s90 -reportprogress|300|-93|-work|work|ALU16_7_1200mv_85c_slow.vho|
+Z14 !s107 ALU16_7_1200mv_85c_slow.vho|
+!i113 1
+Z15 o-93 -work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+Z17 DEx4 work 5 alu16 0 22 kRSBi_U4;YjlD;2PKcj>g0
+l1266
+L157
+V=G_mAZZB31:@`WSzGRZbZ2
+!s100 K:68TH<ozeIOlEhJ8Y@XS0
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Ealu16_tb
+Z18 w1587556172
+R5
+R6
+R0
+Z19 8C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16_Tb.vhd
+Z20 FC:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16_Tb.vhd
+l0
+L4
+VbLliiCEUHJIU82Y]X6D673
+!s100 5JC]d<:9IfXOd6o[f3]8?3
+R10
+31
+Z21 !s110 1587556199
+!i10b 1
+R12
+Z22 !s90 -reportprogress|300|-93|-work|work|C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16_Tb.vhd|
+Z23 !s107 C:/Users/ANDRECLERIGO/Desktop/LSD/Aula7/Parte3/ALU16_Tb.vhd|
+!i113 1
+R15
+R16
+Astimulus
+R2
+R3
+R4
+R7
+R17
+R5
+R6
+DEx4 work 8 alu16_tb 0 22 bLliiCEUHJIU82Y]X6D673
+l15
+L7
+V_DZUVC[`iFzIj_Z07oa7Z2
+!s100 1mPmfL:GR=h42X>abX[LB3
+R10
+31
+R21
+!i10b 1
+R12
+R22
+R23
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L34
+VF25TiLjh`DQcC8Z=zbJ?Y3
+!s100 A`ID_i56<Ua56=ZD=[EG=2
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 F25TiLjh`DQcC8Z=zbJ?Y3
+l64
+L50
+VZ2P8e]:^NT<7Y7=;nM1Vi3
+!s100 2S?JL;LJ@<3:BHXTNcXS]3
+R10
+31
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

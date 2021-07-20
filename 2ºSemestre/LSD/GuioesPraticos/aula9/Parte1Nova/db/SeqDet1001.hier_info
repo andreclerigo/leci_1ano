@@ -1,0 +1,25 @@
+|SeqDetFSM
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => yout.DATAB
+xin => Selector1.IN3
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => Selector0.IN2
+xin => Selector3.IN2
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+clk => pState~1.DATAIN
+estado[0] <= estado[0].DB_MAX_OUTPUT_PORT_TYPE
+estado[1] <= estado[1].DB_MAX_OUTPUT_PORT_TYPE
+estado[2] <= estado[2].DB_MAX_OUTPUT_PORT_TYPE
+estado[3] <= <GND>
+yout <= yout.DB_MAX_OUTPUT_PORT_TYPE
+
+

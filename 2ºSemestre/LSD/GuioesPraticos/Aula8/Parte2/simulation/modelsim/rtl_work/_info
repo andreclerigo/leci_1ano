@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ANDRECLERIGO/Desktop/LSD/Aula8/Parte2/simulation/modelsim
+Edrinksfsm
+Z1 w1588378938
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/ANDRECLERIGO/Desktop/LSD/Aula8/Parte2/DrinksFSM.vhd
+Z5 FC:/Users/ANDRECLERIGO/Desktop/LSD/Aula8/Parte2/DrinksFSM.vhd
+l0
+L4
+VdzIkZ];EIk=ieX3Q8@o@h2
+!s100 3HO28=O3g5LfnMIKLS;^Q3
+Z6 OV;C;10.5b;63
+31
+Z7 !s110 1588379466
+!i10b 1
+Z8 !s108 1588379466.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/ANDRECLERIGO/Desktop/LSD/Aula8/Parte2/DrinksFSM.vhd|
+Z10 !s107 C:/Users/ANDRECLERIGO/Desktop/LSD/Aula8/Parte2/DrinksFSM.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+Z13 DEx4 work 9 drinksfsm 0 22 dzIkZ];EIk=ieX3Q8@o@h2
+l16
+L12
+VAhO9Nhl?f<9B`hF3GAm[@3
+!s100 d7J<lP9G>@QX@SL;[kQb43
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edrinksfsm_tb
+Z14 w1588379440
+R2
+R3
+R0
+Z15 8C:/Users/ANDRECLERIGO/Desktop/LSD/Aula8/Parte2/DrinksFSM_Tb.vhd
+Z16 FC:/Users/ANDRECLERIGO/Desktop/LSD/Aula8/Parte2/DrinksFSM_Tb.vhd
+l0
+L4
+Vj6V;1`]h:X<BU<]`NgmgY0
+!s100 :196mdci156I>[IMGcZUB1
+R6
+32
+Z17 !s110 1588379476
+!i10b 1
+Z18 !s108 1588379476.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/ANDRECLERIGO/Desktop/LSD/Aula8/Parte2/DrinksFSM_Tb.vhd|
+Z20 !s107 C:/Users/ANDRECLERIGO/Desktop/LSD/Aula8/Parte2/DrinksFSM_Tb.vhd|
+!i113 1
+Z21 o-work work
+R12
+Astimulus
+R13
+R2
+R3
+DEx4 work 12 drinksfsm_tb 0 22 j6V;1`]h:X<BU<]`NgmgY0
+l13
+L7
+VPBFPTh3LZi]FJ<8Hm1:jV3
+!s100 VGU0;_4=F_:neAKZZN;zO2
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R21
+R12

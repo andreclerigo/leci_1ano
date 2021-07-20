@@ -1,0 +1,43 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.all; 
+ 
+entity ROM_Tb is 
+end ROM_Tb; 
+
+architecture Stimulus of ROM_Tb is
+
+	--Sinais de entrada
+	signal s_adress : std_logic_vector(3 downto 0);
+	--Sinais de saida
+	signal s_dataOut : std_logic_vector(7 downto 0);
+	
+begin
+	rom: entity work.ROM_16_8(Behavioral)
+		  port map(adress  => s_adress,
+					  dataOut  => s_dataOut);
+			
+	stim_proc: process
+		begin
+			wait for 100 ns;
+			s_adress <= "00000000";
+			wait for 200 ns;
+			
+			s_adress <= "00000001";
+			wait for 200 ns;
+			
+			s_adress <= "00000010";
+			wait for 200 ns;
+			
+			s_adress <= "00000011";
+			wait for 200 ns;
+			
+			s_adress <= "00000100";
+			wait for 200 ns;
+			
+			s_adress <= "00000101";
+			wait for 200 ns;
+			
+			s_adress <= "00000110";
+			wait for 200 ns;
+		end process;
+end stimulus;

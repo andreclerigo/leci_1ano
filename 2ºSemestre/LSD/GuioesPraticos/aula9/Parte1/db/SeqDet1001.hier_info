@@ -1,0 +1,17 @@
+|SeqDetFSM
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+xin => nState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+reset => pState.OUTPUTSELECT
+clk => pState~1.DATAIN
+yout << yout.DB_MAX_OUTPUT_PORT_TYPE
+
+

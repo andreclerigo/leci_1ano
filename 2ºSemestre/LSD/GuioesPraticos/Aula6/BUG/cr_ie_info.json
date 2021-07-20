@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus_map",
+		"comment" : "not_applicable",
+		"error_message" : "map_kpt_db",
+		"source_file" : "/quartus/atm/amerge/amerge_kpt_op.cpp",
+		"line" : "169",
+		"stack_trace" : "\t0x7ffe8b016fa5: atm_amerge + 0x66fa5 (?work@AMERGE_KPT_OP@@QEAA_NXZ + 0x565)\n\t0x7ffe8b01e1e9: atm_amerge + 0x6e1e9 (?perform_post_merge_operations@AMERGE_MERGER_OP@@QEAA_NXZ + 0x979)\n\t0x7ffe8afb4c66: atm_amerge + 0x4c66 (?amerge_combine_netlist@@YA_NPEAVCMP_FACADE@@_NPEA_N@Z + 0x2e6)\n\t0x7ffe8afb4e7f: atm_amerge + 0x4e7f (amerge_mini_merge + 0xf)\n\t0x7ff648fb2c90: quartus_map + 0x12c90 (?do_mini_merge@QSYN_FRAMEWORK@@AEAA_NPEAVCMP_FACADE@@@Z + 0x330)\n\t0x7ff648fc3202: quartus_map + 0x23202 (?write_qic_databases@QSYN_FRAMEWORK@@AEAA_N_N@Z + 0x932)\n\t0x7ff648fc1f44: quartus_map + 0x21f44 (?write_databases@QSYN_FRAMEWORK@@UEAA_N_N@Z + 0x114)\n\t0x7ffee2901378: comp_qexe + 0x11378 (qexe_do_normal + 0x2a8)\n\t0x7ffee2906142: comp_qexe + 0x16142 (qexe_run + 0x432)\n\t0x7ffee2906e51: comp_qexe + 0x16e51 (?qexe_standard_main@@YAHPEAVQEXE_FRAMEWORK@@PEAPEBUQEXE_OPTION_DEFINITION@@HPEAPEBD@Z + 0xc1)\n\t0x7ff648fbb08b: quartus_map + 0x1b08b (?qsyn_main@@YAHHPEAPEBD@Z + 0x51b)\n\t0x7ffeebe72e98: CCL_MSG + 0x12e98 (?msg_main_thread@@YAPEAXPEAX@Z + 0x18)\n\t0x7ffeebe7467e: CCL_MSG + 0x1467e (?msg_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x6e)\n\t0x7ffeebf76660: ccl_mem + 0x16660 (?mem_thread_wrapper@@YAPEAXP6APEAXPEAX@Z0@Z + 0x70)\n\t0x7ffeebe72761: CCL_MSG + 0x12761 (?msg_exe_main@@YAHHPEAPEBDP6AHH0@Z@Z + 0xa1)\n\t0x7ff648fc9872: quartus_map + 0x29872 (__tmainCRTStartup + 0x10e)\n\t0x7fff0bec7bd3: KERNEL32 + 0x17bd3 (BaseThreadInitThunk + 0x13)\n\t0x7fff0cdaced0: ntdll + 0x6ced0 (RtlUserThreadStart + 0x20)\n",
+		"subsystem" : "AMERGE"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "17.1.0",
+		"build" : "590",
+		"edition" : "Lite Edition"
+	}
+}
