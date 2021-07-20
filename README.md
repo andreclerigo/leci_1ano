@@ -1,4 +1,4 @@
-# 1ºano de MIECT (atualmente LECI)
+# 1ºano de MIECT, atualmente LECI
 ### Ano: 2019/2020
 
 # 1º Semestre do 1º Ano
