@@ -1,0 +1,35 @@
+|ControlUnit
+CLK => pState~1.DATAIN
+Opcode[0] => Equal0.IN2
+Opcode[0] => Equal1.IN2
+Opcode[0] => Equal2.IN0
+Opcode[1] => Equal0.IN1
+Opcode[1] => Equal1.IN1
+Opcode[1] => Equal2.IN2
+Opcode[2] => Equal0.IN0
+Opcode[2] => Equal1.IN0
+Opcode[2] => Equal2.IN1
+Func[0] => ALUOp.DATAB
+Func[1] => ALUOp.DATAB
+Func[2] => ALUOp.DATAB
+Func[3] => ALUOp.DATAB
+ResetIn => pState.OUTPUTSELECT
+ResetIn => pState.OUTPUTSELECT
+ResetIn => pState.OUTPUTSELECT
+ResetIn => pState.OUTPUTSELECT
+ResetIn => pState.OUTPUTSELECT
+ResetIn => pState.ResetState.DATAIN
+ResetOut << ResetOut.DB_MAX_OUTPUT_PORT_TYPE
+EnPC << EnPC.DB_MAX_OUTPUT_PORT_TYPE
+RI << RI.DB_MAX_OUTPUT_PORT_TYPE
+RegDst << RegDst.DB_MAX_OUTPUT_PORT_TYPE
+RegWr << RegWr.DB_MAX_OUTPUT_PORT_TYPE
+ALUSrc << ALUSrc.DB_MAX_OUTPUT_PORT_TYPE
+MemWr << MemWr.DB_MAX_OUTPUT_PORT_TYPE
+MemToReg << MemToReg.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[0] << ALUOp.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[1] << ALUOp.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[2] << ALUOp.DB_MAX_OUTPUT_PORT_TYPE
+ALUOp[3] << ALUOp.DB_MAX_OUTPUT_PORT_TYPE
+
+

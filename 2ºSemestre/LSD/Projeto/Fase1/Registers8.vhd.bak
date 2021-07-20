@@ -1,0 +1,25 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all; 
+ 
+entity Registers8 is
+	generic(nData    : integer := 8;
+			  adress   : integer := 3);
+	port(clk         : in std_logic;
+		  writeEnable : in std_logic;
+		  dataIn      : in  std_logic_vector(N-1 downto 0);         
+		  dataOut     : out std_logic_vector(N-1 downto 0)); 
+end Registers8;
+ 
+architecture Behavioral of Registers8 is
+	signal s_data : std_logic_vector(N-1 downto 0);
+begin    
+	process(clk)    
+	begin
+		if (rising_edge(clk)) then 
+			if (writeEnable = '1') then
+				s_data <= dataIn;
+			end if;
+		end if;    
+	end process; 
+	dataOut <= s_data;
+end Behavioral;

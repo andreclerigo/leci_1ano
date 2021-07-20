@@ -1,0 +1,261 @@
+# Reading E:/intelFPGA_lite/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# do MicroProcessor_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying E:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/SignExtend_7b_to_8b.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:39 on May 31,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/SignExtend_7b_to_8b.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SignExtend_7b_to_8b
+# -- Compiling architecture Behavioral of SignExtend_7b_to_8b
+# End time: 01:39:39 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Registers8.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:39 on May 31,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Registers8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Registers8
+# -- Compiling architecture Behavioral of Registers8
+# End time: 01:39:39 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:39 on May 31,2020
+# vcom -reportprogress 300 -93 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Project_Fase1
+# -- Compiling architecture Structural of Project_Fase1
+# ** Error: (vcom-11) Could not find work.programcounter_12.
+# ** Error (suppressible): C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(33): (vcom-1195) Cannot find expanded name "work.ProgramCounter_12".
+# ** Error: C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(33): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.imemory_16_16.
+# ** Error (suppressible): C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(39): (vcom-1195) Cannot find expanded name "work.IMemory_16_16".
+# ** Error: C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(39): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.mux2_1_8b.
+# ** Error (suppressible): C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(47): (vcom-1195) Cannot find expanded name "work.Mux2_1_8b".
+# ** Error: C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(47): Unknown expanded name.
+# -- Loading package NUMERIC_STD
+# -- Loading entity Registers8
+# -- Loading entity SignExtend_7b_to_8b
+# ** Error: (vcom-11) Could not find work.mux2_1_8b.
+# ** Error (suppressible): C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(73): (vcom-1195) Cannot find expanded name "work.Mux2_1_8b".
+# ** Error: C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(73): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.mux2_1_8b.
+# ** Error (suppressible): C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(81): (vcom-1195) Cannot find expanded name "work.Mux2_1_8b".
+# ** Error: C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(81): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.dmemory_256_8.
+# ** Error (suppressible): C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(89): (vcom-1195) Cannot find expanded name "work.DMemory_256_8".
+# ** Error: C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(89): Unknown expanded name.
+# ** Error: (vcom-11) Could not find work.alu8.
+# ** Error (suppressible): C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(98): (vcom-1195) Cannot find expanded name "work.ALU8".
+# ** Error: C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(98): Unknown expanded name.
+# ** Error: C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd(110): VHDL Compiler exiting
+# End time: 01:39:39 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 22, Warnings: 0
+# ** Error: E:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./MicroProcessor_run_msim_rtl_vhdl.do line 10
+# E:/intelFPGA_lite/17.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd}"
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ALU8.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:55 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ALU8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU8
+# -- Compiling architecture Behavioral of ALU8
+# End time: 01:39:55 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/DMemory_256_8.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:55 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/DMemory_256_8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity DMemory_256_8
+# -- Compiling architecture Behavioral of DMemory_256_8
+# End time: 01:39:55 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/IMemory_16_16.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:55 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/IMemory_16_16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity IMemory_16_16
+# -- Compiling architecture Behavioral of IMemory_16_16
+# End time: 01:39:55 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Mux2_1_8b.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:55 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Mux2_1_8b.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Mux2_1_8b
+# -- Compiling architecture Behavioral of Mux2_1_8b
+# End time: 01:39:55 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ProgramCounter_12.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:55 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ProgramCounter_12.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ProgramCounter_12
+# -- Compiling architecture Behavioral of ProgramCounter_12
+# End time: 01:39:56 on May 31,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Registers8.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:56 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Registers8.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Registers8
+# -- Compiling architecture Behavioral of Registers8
+# End time: 01:39:56 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/SignExtend_7b_to_8b.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:56 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/SignExtend_7b_to_8b.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity SignExtend_7b_to_8b
+# -- Compiling architecture Behavioral of SignExtend_7b_to_8b
+# End time: 01:39:56 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:58 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Project_Fase1
+# -- Compiling architecture Structural of Project_Fase1
+# -- Loading package NUMERIC_STD
+# -- Loading entity ProgramCounter_12
+# -- Loading entity IMemory_16_16
+# -- Loading entity Mux2_1_8b
+# -- Loading entity Registers8
+# -- Loading entity SignExtend_7b_to_8b
+# -- Loading entity DMemory_256_8
+# -- Loading entity ALU8
+# End time: 01:39:58 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ControlUnit.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:39:59 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ControlUnit.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ControlUnit
+# -- Compiling architecture Behavioral of ControlUnit
+# End time: 01:39:59 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:40:01 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MicroProcessor
+# -- Compiling architecture Structural of MicroProcessor
+# -- Loading entity Project_Fase1
+# -- Loading entity ControlUnit
+# End time: 01:40:01 on May 31,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor_Tb.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 01:40:02 on May 31,2020
+# vcom -reportprogress 300 -work work C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity MicroProcessor_Tb
+# -- Compiling architecture Stimulus of MicroProcessor_Tb
+# -- Loading entity MicroProcessor
+# End time: 01:40:03 on May 31,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.microprocessor_tb(stimulus)
+# vsim work.microprocessor_tb(stimulus) 
+# Start time: 01:40:10 on May 31,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.microprocessor_tb(stimulus)
+# Loading work.microprocessor(structural)
+# Loading ieee.numeric_std(body)
+# Loading work.project_fase1(structural)
+# Loading work.programcounter_12(behavioral)
+# Loading work.imemory_16_16(behavioral)
+# Loading work.mux2_1_8b(behavioral)
+# Loading work.registers8(behavioral)
+# Loading work.signextend_7b_to_8b(behavioral)
+# Loading work.dmemory_256_8(behavioral)
+# Loading work.alu8(behavioral)
+# Loading work.controlunit(behavioral)
+add wave -position end  sim:/microprocessor_tb/proc/PS
+add wave -position end  sim:/microprocessor_tb/proc/RESET
+add wave -position end  sim:/microprocessor_tb/proc/clk_geral
+add wave -position end  sim:/microprocessor_tb/proc/cnt
+add wave -position end  sim:/microprocessor_tb/proc/fnc
+add wave -position end  sim:/microprocessor_tb/proc/opcode
+add wave -position end  sim:/microprocessor_tb/proc/s_aluop
+add wave -position end  sim:/microprocessor_tb/proc/s_alusrc
+add wave -position end  sim:/microprocessor_tb/proc/s_enpc
+add wave -position end  sim:/microprocessor_tb/proc/s_func
+add wave -position end  sim:/microprocessor_tb/proc/s_memtoreg
+add wave -position end  sim:/microprocessor_tb/proc/s_memwr
+add wave -position end  sim:/microprocessor_tb/proc/s_opcode
+add wave -position end  sim:/microprocessor_tb/proc/s_regdst
+add wave -position end  sim:/microprocessor_tb/proc/s_regwr
+add wave -position end  sim:/microprocessor_tb/proc/s_reset
+add wave -position end  sim:/microprocessor_tb/proc/s_ri
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/proc/Datapath/alu8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/proc/Datapath/dmemory_256_8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/proc/Datapath/registers8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /microprocessor_tb/proc/Datapath/registers8
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 2  Instance: /microprocessor_tb/proc/Datapath/dmemory_256_8
+# End time: 01:41:24 on May 31,2020, Elapsed time: 0:01:14
+# Errors: 0, Warnings: 5

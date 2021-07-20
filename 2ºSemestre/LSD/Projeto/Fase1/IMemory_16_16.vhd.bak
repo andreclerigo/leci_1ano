@@ -1,0 +1,19 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity IMemory_16_16 is
+	generic(nBits    : integer := 16);
+	port(Enable      : in  std_logic;
+		  registAdress  : in  std_logic_vector(nBits-1 downto 0);
+		  readData    : out std_logic_vector(nBits-1 downto 0));
+end IMemory_16_16;
+
+architecture Behavioral of DMemory_16_16 is
+	subtype TDataWord is std_logic_vector(dataBusSize-1 downto 0);
+	type TROM is array (0 to (2**addrBusSize)-1) of TDataWord;
+	constant c_memory: TROM := ();
+	
+	begin
+		dataOut <= c_memory(to_integer(unsigned(adress)));	
+end Behavioral;

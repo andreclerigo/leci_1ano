@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity Mux2_1_8b_Tb is
+end Mux2_1_8b_Tb;
+
+architecture Stimulus of Mux2_1_8b_Tb is
+	signal s_input0 : in  std_logic_vector(7 downto 0);
+	signal s_input1 : in  std_logic_vector(7 downto 0);
+	signal s_sel    : in  std_logic;
+	signal s_output : out std_logic_vector(7 downto 0);
+begin
+	uut: entity work.Mux2_1_8b(Behavioral)
+		port map(input0 <= s_input0,
+					input1 <= s_input1,
+					sel    <= s_sel,
+					output <= s_output);
+	
+	
+	stim_proc : process    
+	begin
+
+	end process;
+end Stimulus;

@@ -1,0 +1,11 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity MicroProcessor_Tb is
+end MicroProcessor_Tb;
+
+architecture Stimulus of MicroProcessor_Tb is
+	
+begin
+
+end Stimulus;

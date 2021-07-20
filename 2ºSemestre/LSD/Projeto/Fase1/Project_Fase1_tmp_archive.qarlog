@@ -1,0 +1,39 @@
+Quartus Prime Archive log --	C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Project_Fase1_tmp_archive.qarlog
+
+Archive:	C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Project_Fase1_tmp_archive.qar
+Date:		Sat May 30 02:34:48 2020
+Quartus Prime		17.1.0 Build 590 10/25/2017 SJ Lite Edition
+
+	=========== Files Selected: ===========
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/ALU8.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/ALU8_Tb.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/DMemory_256_8.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/DMemory_256_8_Tb.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/IMemory_16_16.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/IMemory_16_16_Tb.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Mux2_1_8b.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Mux2_1_8b_Tb.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/ProgramCounter_12.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/ProgramCounter_12_Tb.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Project_Fase1.qpf
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Project_Fase1.qsf
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Project_Fase1.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Project_Fase1_Tb.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Project_Fase1_Visual.bdf
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/RegisterN.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Registers8.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Registers8_Tb.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/SignExtend_7b_to_8b.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/SignExtend_7b_to_8b_Tb.vhd
+C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/db/Project_Fase1.cmp.rdb
+e:/intelfpga_lite/17.1/quartus/bin64/assignment_defaults.qdf
+	======= Total: 22 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Sat May 30 02:34:49 2020
+Source archive file:	C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase1/Project_Fase1_tmp_archive.qar
+Archive was extracted into	C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/
+		 - successfully.

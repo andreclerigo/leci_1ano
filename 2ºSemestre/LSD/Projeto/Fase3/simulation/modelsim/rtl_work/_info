@@ -1,0 +1,460 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/simulation/modelsim
+Ealu8
+Z1 w1590515078
+Z2 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ALU8.vhd
+Z6 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ALU8.vhd
+l0
+L5
+Vm2jLH;I:=D^5QAGLZ6Y<m1
+!s100 Z_zba1l?8V9Ta^O@WJ]`40
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1590885595
+!i10b 1
+Z9 !s108 1590885595.000000
+Z10 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ALU8.vhd|
+Z11 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ALU8.vhd|
+!i113 1
+Z12 o-work work
+Z13 tExplicit 1 CvgOpt 0
+Abehavioral
+R2
+R3
+R4
+Z14 DEx4 work 4 alu8 0 22 m2jLH;I:=D^5QAGLZ6Y<m1
+l20
+L13
+V5MCamj;[U?RHcb>jV2j>a1
+!s100 <IcFT[alT_Sb9z96X@=6W3
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Econtrolunit
+Z15 w1590885475
+R3
+R4
+R0
+Z16 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ControlUnit.vhd
+Z17 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ControlUnit.vhd
+l0
+L4
+Ve;cALY_mGFil25<0G>`c>0
+!s100 jO`o7PdFnLUaY^6HBVAf>1
+R7
+32
+Z18 !s110 1590885599
+!i10b 1
+Z19 !s108 1590885599.000000
+Z20 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ControlUnit.vhd|
+Z21 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ControlUnit.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+Z22 DEx4 work 11 controlunit 0 22 e;cALY_mGFil25<0G>`c>0
+l26
+L23
+V;4@ePU3cTgBizRzzMQm6N3
+!s100 IWn`akZOa<l>?T@7WCG7Q0
+R7
+32
+R18
+!i10b 1
+R19
+R20
+R21
+!i113 1
+R12
+R13
+Edmemory_256_8
+Z23 w1590575133
+R2
+R3
+R4
+R0
+Z24 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/DMemory_256_8.vhd
+Z25 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/DMemory_256_8.vhd
+l0
+L5
+V]L10hfAS;G`[i2>0L1zX60
+!s100 :RkA`I<GJINh`im]Uj[_S0
+R7
+32
+R8
+!i10b 1
+R9
+Z26 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/DMemory_256_8.vhd|
+Z27 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/DMemory_256_8.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z28 DEx4 work 13 dmemory_256_8 0 22 ]L10hfAS;G`[i2>0L1zX60
+l21
+L14
+Vkc^ec[:eVh09PRjTcl^0N1
+!s100 [Rz:NTAWdX>obN6jbO8i_0
+R7
+32
+R8
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13
+Eimemory_16_16
+Z29 w1590747009
+R2
+R3
+R4
+R0
+Z30 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/IMemory_16_16.vhd
+Z31 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/IMemory_16_16.vhd
+l0
+L5
+VIM^Y@PHZJ9OblJ802o^?Y3
+!s100 JC8ZUF04SNjH2fE>L2cYR2
+R7
+32
+R8
+!i10b 1
+R9
+Z32 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/IMemory_16_16.vhd|
+Z33 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/IMemory_16_16.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z34 DEx4 work 13 imemory_16_16 0 22 IM^Y@PHZJ9OblJ802o^?Y3
+l22
+L14
+V:ddh:JU9_1PGm2l`^B4Li2
+!s100 :e^2eV[7^ImVWV:cOBCNP2
+R7
+32
+R8
+!i10b 1
+R9
+R32
+R33
+!i113 1
+R12
+R13
+Emicroprocessor
+Z35 w1590884465
+R3
+R4
+R0
+Z36 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor.vhd
+Z37 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor.vhd
+l0
+L4
+Vj_dFge8QD3H6Fh_<UIWTJ3
+!s100 gAN=^I2Q?gjU9^a;ZO87j2
+R7
+32
+Z38 !s110 1590885601
+!i10b 1
+Z39 !s108 1590885601.000000
+Z40 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor.vhd|
+Z41 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor.vhd|
+!i113 1
+R12
+R13
+Astructural
+R22
+Z42 DEx4 work 13 project_fase1 0 22 oNC9GjWSX_9Yn2V@2GkW;2
+R3
+R4
+Z43 DEx4 work 14 microprocessor 0 22 j_dFge8QD3H6Fh_<UIWTJ3
+l26
+L13
+V[0o2_CB[Ib]2502KML9bm0
+!s100 neL>1LeFM1_fJN7X^J7YP3
+R7
+32
+R38
+!i10b 1
+R39
+R40
+R41
+!i113 1
+R12
+R13
+Emicroprocessor_tb
+Z44 w1590884830
+R3
+R4
+R0
+Z45 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor_Tb.vhd
+Z46 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor_Tb.vhd
+l0
+L4
+VaF;eL@6Qj2S@8WZ3kn_PN0
+!s100 hL:b9KlUOlh4Pf0bWC<X21
+R7
+32
+Z47 !s110 1590885602
+!i10b 1
+Z48 !s108 1590885602.000000
+Z49 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor_Tb.vhd|
+Z50 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/MicroProcessor_Tb.vhd|
+!i113 1
+R12
+R13
+Astimulus
+R43
+R3
+R4
+DEx4 work 17 microprocessor_tb 0 22 aF;eL@6Qj2S@8WZ3kn_PN0
+l11
+L7
+VKU9Igh5WW2Z3BL9QN97830
+!s100 FH7>;NSZc8;D7>7WV:C0K1
+R7
+32
+R47
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R12
+R13
+Emux2_1_8b
+Z51 w1590516144
+R3
+R4
+R0
+Z52 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Mux2_1_8b.vhd
+Z53 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Mux2_1_8b.vhd
+l0
+L4
+V@c:]0d[Z0[HD9<nkBW@[P2
+!s100 XiTTnD2kPmOodVGERZ>Ke2
+R7
+32
+R8
+!i10b 1
+R9
+Z54 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Mux2_1_8b.vhd|
+Z55 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Mux2_1_8b.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+Z56 DEx4 work 9 mux2_1_8b 0 22 @c:]0d[Z0[HD9<nkBW@[P2
+l13
+L12
+V7oUJIXFPjP```igV9TkWl0
+!s100 dcfmB0ES63TJRb7D]`?]:2
+R7
+32
+R8
+!i10b 1
+R9
+R54
+R55
+!i113 1
+R12
+R13
+Eprogramcounter_12
+Z57 w1590571329
+R2
+R3
+R4
+R0
+Z58 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ProgramCounter_12.vhd
+Z59 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ProgramCounter_12.vhd
+l0
+L5
+VXn]7eXUXdeIo8AN?V4D2e3
+!s100 ZE`CNYGokG2D`NE22>CH73
+R7
+32
+Z60 !s110 1590885596
+!i10b 1
+R9
+Z61 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ProgramCounter_12.vhd|
+Z62 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/ProgramCounter_12.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+Z63 DEx4 work 17 programcounter_12 0 22 Xn]7eXUXdeIo8AN?V4D2e3
+l15
+L13
+V074JQeUo6O63h2>`j:?3Z1
+!s100 n8WzC7Lj^@d_laWX8<5@12
+R7
+32
+R60
+!i10b 1
+R9
+R61
+R62
+!i113 1
+R12
+R13
+Eproject_fase1
+Z64 w1590884270
+R3
+R4
+R0
+Z65 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd
+Z66 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd
+l0
+L4
+VoNC9GjWSX_9Yn2V@2GkW;2
+!s100 0C:Fbm[jj3D?9OX>_ZNn]1
+R7
+32
+Z67 !s110 1590885598
+!i10b 1
+Z68 !s108 1590885598.000000
+Z69 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd|
+Z70 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Project_Fase1.vhd|
+!i113 1
+R12
+R13
+Astructural
+R14
+R28
+Z71 DEx4 work 19 signextend_7b_to_8b 0 22 G<eZ24]b[G7R1<P7en2F61
+Z72 DEx4 work 10 registers8 0 22 6z`>oR[maSZHQ<R>Knh[h0
+R56
+R34
+R2
+R63
+R3
+R4
+R42
+l32
+L20
+VXe9TL3im71LVXzaba9ZXg3
+!s100 ;zC?n4OQi:IZdi^o[4Dzh1
+R7
+32
+R67
+!i10b 1
+R68
+R69
+R70
+!i113 1
+R12
+R13
+Eregisters8
+Z73 w1590620750
+R2
+R3
+R4
+R0
+Z74 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Registers8.vhd
+Z75 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Registers8.vhd
+l0
+L5
+V6z`>oR[maSZHQ<R>Knh[h0
+!s100 Pzj92z4?3PFJZmJeR?Kei0
+R7
+32
+R60
+!i10b 1
+Z76 !s108 1590885596.000000
+Z77 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Registers8.vhd|
+Z78 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/Registers8.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R2
+R3
+R4
+R72
+l28
+L19
+VVPfQjzd4S]oE3jlFQ9B3@1
+!s100 fWi`d3E0DTCCFhcf]amZ>3
+R7
+32
+R60
+!i10b 1
+R76
+R77
+R78
+!i113 1
+R12
+R13
+Esignextend_7b_to_8b
+Z79 w1590592366
+R3
+R4
+R0
+Z80 8C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/SignExtend_7b_to_8b.vhd
+Z81 FC:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/SignExtend_7b_to_8b.vhd
+l0
+L4
+VG<eZ24]b[G7R1<P7en2F61
+!s100 >d?R<;?9hkfgF;0YTD61O3
+R7
+32
+R60
+!i10b 1
+R76
+Z82 !s90 -reportprogress|300|-work|work|C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/SignExtend_7b_to_8b.vhd|
+Z83 !s107 C:/Users/AndreClerigo/Desktop/Git/LSD/Projeto/Fase3/SignExtend_7b_to_8b.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R3
+R4
+R71
+l12
+L11
+VUGjYU`N4jUS6eQA;o]bj_0
+!s100 c=>V;LTNh1kE10YQdm8_h0
+R7
+32
+R60
+!i10b 1
+R76
+R82
+R83
+!i113 1
+R12
+R13

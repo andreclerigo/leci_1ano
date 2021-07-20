@@ -1,0 +1,19 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity IMemory_16_16_Tb is
+end IMemory_16_16_Tb;
+
+architecture Behavioral of IMemory_16_16 is
+	signal s_enable       : std_logic;
+	signal s_registAdress : std_logic_vector(15 downto 0);
+	signal s_readData     : std_logic_vector(15 downto 0);
+begin
+	process(Enable)
+	begin
+		if (Enable = '1') then
+			readData <= c_memory(to_integer(unsigned(registAdress)));
+		end if;
+	end process;
+end Behavioral;

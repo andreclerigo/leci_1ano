@@ -1,0 +1,11 @@
+SignExtend 	             	 - DONE 	- TESTED
+3 multiplexers 2:1 	     	 - DONE 	- TESTED
+PC (Program Counter)         - DONE     - TESTED       - LEVA CLK
+ALU 			     		 - DONE 	- TESTED
+DMemory (Data Memory) 	     - DONE 	- TESTED       - DEVE LEVAR   
+IMemory (Instruction Memory) - DONE     - TESTED       - LEVA CLK     
+Registers 		     		 - DONE 	- TESTED   	   - LEVA CLK     - FALTA COMENTARIOS EM TUDO
+Datapath                     - DONE     - +- TESTED                  - FALTA COMENTARIOS EM TUDO
+
+CONTROL UNIT                 - NOT DONE - NOT TESTED
+BNE                          - NOT DONE - NOT TESTED

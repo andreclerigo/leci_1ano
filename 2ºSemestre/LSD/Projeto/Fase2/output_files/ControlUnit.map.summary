@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat May 30 00:52:35 2020
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : ControlUnit
+Top-level Entity Name : ControlUnit
+Family : Cyclone IV E
+Total logic elements : 24
+    Total combinational functions : 24
+    Dedicated logic registers : 6
+Total registers : 6
+Total pins : 21
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

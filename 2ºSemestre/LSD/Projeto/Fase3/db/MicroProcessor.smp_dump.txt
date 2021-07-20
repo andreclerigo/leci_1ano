@@ -1,0 +1,9 @@
+
+State Machine - |MicroProcessor|ControlUnit:ControlUnit|pState
+Name pState.WriteMem pState.RegUpdate pState.Execute pState.Decode pState.Fetch pState.ResetState 
+pState.ResetState 0 0 0 0 0 0 
+pState.Fetch 0 0 0 0 1 1 
+pState.Decode 0 0 0 1 0 1 
+pState.Execute 0 0 1 0 0 1 
+pState.RegUpdate 0 1 0 0 0 1 
+pState.WriteMem 1 0 0 0 0 1 

@@ -1,0 +1,7 @@
+entity MicroProcessor is
+	port(clk_geral : in std_logic;
+		  RESET 		: in std_logic);
+end MicroProcessor;
+
+architecture Structural of MicroProcessor is
+end Structural;

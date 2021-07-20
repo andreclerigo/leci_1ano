@@ -1,0 +1,12 @@
+ibrary IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+entity SignExtend7bto8b is
+	port(input  : in  std_logic_vector(7 downto 0);
+		  output : out std_logic_vector(8 downto 0));
+end SignExtend7bto8b;
+
+architecture Behavioral of SignExtend7bto8b is
+begin
+	output <= '0' & input;
+end Behavioral;

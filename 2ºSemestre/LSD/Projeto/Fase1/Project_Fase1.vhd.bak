@@ -1,0 +1,223 @@
+-- Copyright (C) 2017  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+
+-- PROGRAM		"Quartus Prime"
+-- VERSION		"Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition"
+-- CREATED		"Wed May 27 13:31:07 2020"
+
+LIBRARY ieee;
+USE ieee.std_logic_1164.all; 
+
+LIBRARY work;
+
+ENTITY Project_Fase1 IS 
+	PORT
+	(
+		CLK :  IN  STD_LOGIC;
+		Reset :  IN  STD_LOGIC;
+		EnPC :  IN  STD_LOGIC;
+		RI :  IN  STD_LOGIC;
+		RegDst :  IN  STD_LOGIC;
+		RegWr :  IN  STD_LOGIC;
+		ALUSrc :  IN  STD_LOGIC;
+		MemWr :  IN  STD_LOGIC;
+		MemToReg :  IN  STD_LOGIC;
+		ALUOp :  IN  STD_LOGIC_VECTOR(3 DOWNTO 0);
+		LIXO :  OUT  STD_LOGIC_VECTOR(2 DOWNTO 0)
+	);
+END Project_Fase1;
+
+ARCHITECTURE bdf_type OF Project_Fase1 IS 
+
+COMPONENT imemory_16_16
+GENERIC (adressLength : INTEGER;
+			N : INTEGER
+			);
+	PORT(Enable : IN STD_LOGIC;
+		 registAdress : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+		 readData : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)
+	);
+END COMPONENT;
+
+COMPONENT registers8
+GENERIC (adress : INTEGER;
+			nData : INTEGER
+			);
+	PORT(clk : IN STD_LOGIC;
+		 writeEnable : IN STD_LOGIC;
+		 Reset : IN STD_LOGIC;
+		 ReadAdress1 : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+		 ReadAdress2 : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+		 WriteAdress : IN STD_LOGIC_VECTOR(2 DOWNTO 0);
+		 WriteData : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 ReadData1 : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 ReadData2 : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+	);
+END COMPONENT;
+
+COMPONENT mux2_1_8b
+GENERIC (bits : INTEGER
+			);
+	PORT(sel : IN STD_LOGIC;
+		 input0 : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 input1 : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 output : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+	);
+END COMPONENT;
+
+COMPONENT signextend_7b_to_8b
+GENERIC (inbits : INTEGER;
+			outbits : INTEGER
+			);
+	PORT(input : IN STD_LOGIC_VECTOR(6 DOWNTO 0);
+		 output : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+	);
+END COMPONENT;
+
+COMPONENT programcounter_12
+GENERIC (N : INTEGER
+			);
+	PORT(clk : IN STD_LOGIC;
+		 Reset : IN STD_LOGIC;
+		 Enable : IN STD_LOGIC;
+		 Cnt : OUT STD_LOGIC_VECTOR(3 DOWNTO 0)
+	);
+END COMPONENT;
+
+COMPONENT dmemory_256_8
+GENERIC (nBits : INTEGER
+			);
+	PORT(clk : IN STD_LOGIC;
+		 writeEnable : IN STD_LOGIC;
+		 adress : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 writeData : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 readData : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+	);
+END COMPONENT;
+
+COMPONENT alu8
+GENERIC (N : INTEGER
+			);
+	PORT(ALUOp : IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+		 op0 : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 op1 : IN STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 res : OUT STD_LOGIC_VECTOR(7 DOWNTO 0)
+	);
+END COMPONENT;
+
+SIGNAL	A :  STD_LOGIC_VECTOR(15 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_0 :  STD_LOGIC_VECTOR(3 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_1 :  STD_LOGIC_VECTOR(2 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_2 :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_11 :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_4 :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_12 :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_6 :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_9 :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+SIGNAL	SYNTHESIZED_WIRE_10 :  STD_LOGIC_VECTOR(7 DOWNTO 0);
+
+
+BEGIN 
+
+
+
+b2v_inst : imemory_16_16
+GENERIC MAP(adressLength => 4,
+			N => 16
+			)
+PORT MAP(Enable => RI,
+		 registAdress => SYNTHESIZED_WIRE_0,
+		 readData => A);
+
+
+b2v_inst1 : registers8
+GENERIC MAP(adress => 3,
+			nData => 8
+			)
+PORT MAP(clk => CLK,
+		 writeEnable => RegWr,
+		 Reset => Reset,
+		 ReadAdress1 => A(12 DOWNTO 10),
+		 ReadAdress2 => A(9 DOWNTO 7),
+		 WriteAdress => SYNTHESIZED_WIRE_1,
+		 WriteData => SYNTHESIZED_WIRE_2,
+		 ReadData1 => SYNTHESIZED_WIRE_9,
+		 ReadData2 => SYNTHESIZED_WIRE_11);
+
+
+b2v_inst3 : mux2_1_8b
+GENERIC MAP(bits => 8
+			)
+PORT MAP(sel => ALUSrc,
+		 input0 => SYNTHESIZED_WIRE_11,
+		 input1 => SYNTHESIZED_WIRE_4,
+		 output => SYNTHESIZED_WIRE_10);
+
+
+b2v_inst4 : signextend_7b_to_8b
+GENERIC MAP(inbits => 7,
+			outbits => 8
+			)
+PORT MAP(input => A(6 DOWNTO 0),
+		 output => SYNTHESIZED_WIRE_4);
+
+
+b2v_inst5 : programcounter_12
+GENERIC MAP(N => 4
+			)
+PORT MAP(clk => CLK,
+		 Reset => Reset,
+		 Enable => EnPC,
+		 Cnt => SYNTHESIZED_WIRE_0);
+
+
+b2v_inst6 : mux2_1_8b
+GENERIC MAP(bits => 3
+			)
+PORT MAP(sel => RegDst,
+		 input0 => A(6 DOWNTO 4),
+		 input1 => A(9 DOWNTO 7),
+		 output => SYNTHESIZED_WIRE_1);
+
+
+b2v_inst7 : mux2_1_8b
+GENERIC MAP(bits => 8
+			)
+PORT MAP(sel => MemToReg,
+		 input0 => SYNTHESIZED_WIRE_12,
+		 input1 => SYNTHESIZED_WIRE_6,
+		 output => SYNTHESIZED_WIRE_2);
+
+
+b2v_inst8 : dmemory_256_8
+GENERIC MAP(nBits => 8
+			)
+PORT MAP(clk => CLK,
+		 writeEnable => MemWr,
+		 adress => SYNTHESIZED_WIRE_12,
+		 writeData => SYNTHESIZED_WIRE_11,
+		 readData => SYNTHESIZED_WIRE_6);
+
+
+b2v_inst9 : alu8
+GENERIC MAP(N => 8
+			)
+PORT MAP(ALUOp => ALUOp,
+		 op0 => SYNTHESIZED_WIRE_9,
+		 op1 => SYNTHESIZED_WIRE_10,
+		 res => SYNTHESIZED_WIRE_12);
+
+LIXO(2 DOWNTO 0) <= A(15 DOWNTO 13);
+
+END bdf_type;

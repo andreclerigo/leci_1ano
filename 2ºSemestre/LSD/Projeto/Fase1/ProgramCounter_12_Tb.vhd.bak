@@ -1,0 +1,17 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.NUMERIC_STD.all;
+
+entity ProgramCounter_12_Tb is
+
+end ProgramCounter_12_Tb;
+
+architecture Behavioral of ProgramCounter_12 is
+	signal s_clk    : std_logic;
+	signal s_reset  : std_logic;
+	signal s_enable : std_logic;
+	signal s_count  : std_logic_vector(3 downto 0);
+begin
+	counter: entity work.ProgramCounter(Behavioral)
+	
+end Behavioral;

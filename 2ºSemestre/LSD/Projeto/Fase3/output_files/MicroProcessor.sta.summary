@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ControlUnit:ControlUnit|pState.Execute'
+Slack : -2.736
+TNS   : -5.103
+
+Type  : Slow 1200mV 85C Model Setup 'clk_geral'
+Slack : -2.394
+TNS   : -18.707
+
+Type  : Slow 1200mV 85C Model Hold 'clk_geral'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ControlUnit:ControlUnit|pState.Execute'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk_geral'
+Slack : -1.279
+TNS   : -5.116
+
+Type  : Slow 1200mV 85C Model Removal 'clk_geral'
+Slack : 1.780
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_geral'
+Slack : -3.000
+TNS   : -23.560
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ControlUnit:ControlUnit|pState.Execute'
+Slack : 0.376
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ControlUnit:ControlUnit|pState.Execute'
+Slack : -2.555
+TNS   : -4.746
+
+Type  : Slow 1200mV 0C Model Setup 'clk_geral'
+Slack : -2.078
+TNS   : -16.281
+
+Type  : Slow 1200mV 0C Model Hold 'clk_geral'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ControlUnit:ControlUnit|pState.Execute'
+Slack : 0.551
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk_geral'
+Slack : -1.096
+TNS   : -4.384
+
+Type  : Slow 1200mV 0C Model Removal 'clk_geral'
+Slack : 1.651
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_geral'
+Slack : -3.000
+TNS   : -23.560
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ControlUnit:ControlUnit|pState.Execute'
+Slack : 0.364
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ControlUnit:ControlUnit|pState.Execute'
+Slack : -1.395
+TNS   : -2.772
+
+Type  : Fast 1200mV 0C Model Setup 'clk_geral'
+Slack : -1.388
+TNS   : -9.214
+
+Type  : Fast 1200mV 0C Model Hold 'ControlUnit:ControlUnit|pState.Execute'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk_geral'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk_geral'
+Slack : -0.751
+TNS   : -3.004
+
+Type  : Fast 1200mV 0C Model Removal 'clk_geral'
+Slack : 1.437
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_geral'
+Slack : -3.000
+TNS   : -20.207
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ControlUnit:ControlUnit|pState.Execute'
+Slack : 0.438
+TNS   : 0.000
+
+------------------------------------------------------------

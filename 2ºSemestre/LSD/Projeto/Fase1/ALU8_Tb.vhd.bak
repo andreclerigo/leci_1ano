@@ -1,0 +1,19 @@
+library IEEE; 
+use IEEE.STD_LOGIC_1164.all; 
+use IEEE.NUMERIC_STD.all; 
+ 
+entity ALU8_Tb is
+end ALU8_Tb; 
+ 
+architecture Stimulus of ALU8 is
+	signal s_op0, s_op1, s_res : std_logic_vector(7 downto 0);
+	signal s_ALUOp             : std_logic_vector(3 downto 0);
+begin 
+	ALUOp_proc: process
+	begin
+	end process;
+	
+	stim_proc: process
+	begin
+	end process; 
+end Stimulus;

@@ -1,0 +1,5 @@
+entity ControlUnit is
+end ControlUnit;
+
+architecture Behavioral of ControlUnit is
+end Behavioral;
