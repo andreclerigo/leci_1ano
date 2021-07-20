@@ -1,1 +1,1 @@
-# Laboratório de Sistemas Digitais
+# Laboratório de Sistemas Digitais (LSD)
