@@ -1,0 +1,39 @@
+<!--  <html>
+	<body>
+		<input id = "op1" value = "3">
+		<input id = "op2" value = "4">
+		<script type = "text/javascript" src = "contas.js"> </script>
+	</body>
+</html>  -->
+
+<!-- <html>
+	<head>
+		<script type="text/javascript" src="contas.js"></script>
+	</head>
+	<body>
+		<input id="op1" value="2" />
+		<span id="op-view">+</span>
+		<input id="op2" value="3" />
+		<span id="op-view">=</span>
+		<input id="res" value="" /><br/>
+		<button onclick="calcular()">Calcular</button>
+	</body>
+</html>  -->
+
+<html>
+	<head>
+		<script type="text/javascript" src="contas.js"></script>
+	</head>
+	<body>
+		<input id="op1" value="2" />
+		<span id="op-view">+</span>
+		<input id="op2" value="3" />
+		<input id="res" value="" /><br/>
+		<select onchange="operacao(this)">
+			<option value="+"> Soma </option>
+			<option value="-"> Subtração </option>
+		</select>
+		<button id="btn" onclick="calcular()" onmouseover="mover('btn')">Calcular</button>
+		<button onclick="calcular()">Calcular</button>
+	</body>
+</html>	

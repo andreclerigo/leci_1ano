@@ -1,0 +1,12 @@
+#import os
+import sys
+from Crypto.Cipher import ARC4
+
+decipher = ARC4.new(sys.argv[1])
+with open(sys.argv[2], "rb") as file:
+    data = file.read()
+plaintext = decipher.decrypt(data)
+
+f = open(sys.argv[3], "wb")
+f.write(plaintext)
+f.close()

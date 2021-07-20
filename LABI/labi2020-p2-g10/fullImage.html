@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Full Image</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .flip-card {{
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}}
+
+.flip-card-inner {{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}}
+
+.flip-card:hover .flip-card-inner {{
+  transform: rotateY(180deg);
+}}
+
+.flip-card-front, .flip-card-back {{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}}
+
+.flip-card-front {{
+  background-color: #bbb;
+  color: black;
+}}
+
+.flip-card-back {{
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}}
+img{{
+    width: 100%;
+    height: 100%;
+}}  
+    </style>
+  </head>
+  <body>
+
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+			<h1 id="colorlib-logo"><a href="../labi2020-p2-g10""><span class="flaticon-camera"></span>Instagrum</a></h1>
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li><a href="../labi2020-p2-g10"">Home</a></li>
+					<li><a href="addImage">Upload</a></li>
+					<li class="colorlib-active"><a href="listImages">List Images</a></li>
+					<li><a href="about">About</a></li>
+				</ul>
+			</nav>
+			<div class="colorlib-footer">
+			</div>
+		</aside> <!-- END COLORLIB-ASIDE -->
+		<div id="colorlib-main">
+                <div style="width: 50%;
+                height: 100;
+                margin-left: 27%;
+                margin-top: 10%;
+                margin-bottom: 10%;"
+                class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        {}
+                      </div>
+                      <div class="flip-card-back">
+                        {}
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <div class="col-md-6">
+                        <h4>Date: {}</h4>
+                        <h4>Author: {}</h4>
+                        <h4>Caption: {}</h4>
+                        <h4>Used Filter: {}</h4>
+                        <h4>Keyword: {}</h4>
+                        <h4 id ="upvotesh4" >UpVotes: {} </h4>
+                        <h4 id="downvotesh4" >DownVotes: {}</h4>
+                        <h4>Views: {}</h4>
+                    </div>
+                    <div class="col-md-6">
+                            <div class="form-group">
+                                <button id="UpVote" style="background-color: green !important;"type="button" class="form-control" value="UpVote" name="addVoteUp">UpVote</button>
+                                <button id="DownVote" style="background-color: red !important;"type="submit" class="form-control" value="DownVote" name="votedown">DownVote</button>
+                              </div>
+                            <form  class="bg-light p-5 contact-form" method="get" action="addComment">
+                              <h6>Add a comment</h6>
+                              <div class="form-group">
+                                <input  type="text" class="form-control" placeholder="Author Name" name="authorComment">
+                                <input  type="text" class="form-control" placeholder="Write here your comment" name="comment">
+                                <input id="idImageComment"  type="hidden" class="form-control" placeholder="Write here your comment" name="idImageComment">
+                                <input  type="submit"></div>
+                              </div>
+                            </form>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <h1>Comentários</h1>
+                        {}{}
+                      </div>
+                    </div>
+                  </div>
+		</div><!-- END COLORLIB-MAIN -->
+	</div><!-- END COLORLIB-PAGE -->
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    $("#UpVote").click(function(e) {{
+
+    var id = $("#id").val();
+
+    $.post("/labi2020-p2-g10/addVoteUp", {{"idImage": id}})
+    .done(function(res) {{
+
+      res =  res.replace(/[{{()}}]/g, '');
+      document.getElementById("upvotesh4").innerHTML = "UpVotes: " + res;
+
+    }});
+    }});
+
+    $("#DownVote").click(function(e) {{
+
+    var id = $("#id").val();
+
+    $.post("/labi2020-p2-g10/addVoteDown", {{"idImage": id}})
+    .done(function(res) {{
+
+      res =  res.replace(/[{{()}}]/g, '');
+      document.getElementById("downvotesh4").innerHTML = "DownVotes: " + res;
+
+    }});
+    }});
+
+$( document ).ready(function() {{
+    var id = $("#id").val();
+    $("#idImageComment").val(id);
+}});
+
+  </script>
+    
+  </body>
+</html>

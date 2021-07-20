@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="img/logo.png" />
+  <title>Fórmula 1</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--<script src="jquery-3.4.1.min.js"></script>-->
+</head>
+<body>
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav"role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <a href="index.html">
+        <img style="height:60px; padding: 0px" class="navbar-brand" src="img/transferir.png" alt="f1logo">
+      </a>
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>  
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="index.html">Fórmula 1</a>
+        </li>
+        <li>
+          <div class="dropdown">
+            <a href="#" class="a-dropdown">Regras</a>
+            <div class="dropdown-content">
+              <a href="pontuacao.html" class="a-dropdown" style="margin-top: 20px">Pontuações</a>
+              <a href="#" class="a-dropdown">Bandeiras</a>
+              <a href="#" class="a-dropdown">Pneus</a>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="temp2018_2019.html">Temporada 2018/2019</a>
+        </li>
+        <li>
+          <a href="curiosidades.html">Curiosidades</a>
+        </li>
+        <li>
+          <a href="about.html">Sobre</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<div style="margin-left:2%" class="row">
+
+  <div class="col-md-12 " style="width: 80%; margin-left: 10%; margin-right: 10%;height: 90%; margin-top: 5%; border: solid #e10600;border-width: 15px;border-radius: 25px; color: white">
+    <div class="col-md-12" style="background-color: #15151D;width: 100%; text-align: center;">
+       <h1 > Equipas da Temporada 2018/2019</h1>
+       <h6 style="text-align: left;">Clique nas equipas para ver os pilotos de cada uma</h6>
+      <div  class="col-md-6" style="text-align: center; margin-top: 2%; margin-bottom: 2%">
+        <img id="imagemmercedes" src="img/mercedesfinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="mercedes" style="display: none" class="col-md-12">
+          <h1>Pilotos</h1>
+          <div  class="col-md-6">
+             <img src="img/lewishamilton.png" style="width:100% ;height: 200px;background-color: white ">
+             Lewis Hamilton
+          </div>
+          <div class="col-md-6">
+              <img src="img/valteribottas.png" style="width:100% ;height: 200px;background-color: white ">
+              Valteri Bottas
+          </div>
+          <button id="fechar1" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+      <div  class="col-md-6" style="text-align: center; margin-top: 2%; margin-bottom: 2%">
+        <img id="imagemferrari" src="img/ferrarifinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="ferrari" style="display: none" class="col-md-12">
+          <h1>Pilotos</h1>
+          <div  class="col-md-6">
+             <img src="img/charlesleclerc.png" style="width:100% ;height: 200px;background-color: white ">
+             Charles Leclerc
+          </div>
+          <div class="col-md-6">
+              <img src="img/vettel.png" style="width:100% ;height: 200px;background-color: white ">
+              Sebastian Vettel
+          </div>
+          <button id="fechar2" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+      <div  class="col-md-3" style="text-align: center;border-left:solid black 1px;">
+        <img id="imagemredbull" src="img/redbullfinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="redbull" style="display: none" class="col-md-12">
+          <h3>Pilotos</h3>
+          <div  class="col-md-6">
+             <img src="img/maxverstappen.png" style="width:100% ;height: 100px;background-color: white ">
+             Max Verstappen
+          </div>
+          <div class="col-md-6">
+              <img src="img/alexanderalbon.png" style="width:100% ;height: 100px;background-color: white ">
+             Alexander Albon
+          </div>
+          <button id="fechar3" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+
+     <div  class="col-md-3" style="text-align: center;border-left:solid black 1px;">
+        <img id="imagemmclaren" src="img/mclarenfinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="mclaren" style="display: none" class="col-md-12">
+          <h3>Pilotos</h3>
+          <div  class="col-md-6">
+             <img src="img/carlossainz.png" style="width:100% ;height: 100px;background-color: white ">
+             Carlos Sainz Jr.
+          </div>
+          <div class="col-md-6">
+              <img src="img/landonorris.png" style="width:100% ;height: 100px;background-color: white ">
+             Lando Norris
+          </div>
+          <button id="fechar4" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+      <div  class="col-md-3" style="text-align: center;border-left:solid black 1px;">
+        <img id="imagemrenault" src="img/renaultfinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="renault" style="display: none" class="col-md-12">
+          <h3>Pilotos</h3>
+          <div  class="col-md-6">
+             <img src="img/danielricciardo.png" style="width:100% ;height: 100px;background-color: white ">
+             Daniel Ricciardo
+          </div>
+          <div class="col-md-6">
+              <img src="img/hulkenberg.png" style="width:100% ;height: 100px;background-color: white ">
+              Nico Hülkenberg
+          </div>
+          <button id="fechar5" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+     <div  class="col-md-3" style="text-align: center;border-left:solid black 1px;">
+        <img id="imagemtororosso" src="img/tororossofinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="tororosso" style="display: none" class="col-md-12">
+          <h3>Pilotos</h3>
+          <div  class="col-md-6">
+             <img src="img/kvyat.png" style="width:100% ;height: 100px;background-color: white ">
+             Daniil Kvyat
+          </div>
+          <div class="col-md-6">
+              <img src="img/pierregasly.png" style="width:100% ;height: 100px;background-color: white ">
+              Pierre Gasly
+          </div>
+          <button id="fechar6" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+      <div  class="col-md-3" style="text-align: center;border-left:solid black 1px ;margin-top: 2%;">
+        <img id="imagemracingpoint" src="img/racingpointfinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="racingpoint" style="display: none" class="col-md-12">
+          <h3>Pilotos</h3>
+          <div  class="col-md-6">
+             <img src="img/stroll.png" style="width:100% ;height: 100px;background-color: white ">
+             Lance Stroll
+          </div>
+          <div class="col-md-6">
+              <img src="img/sergioperez.png" style="width:100% ;height: 100px;background-color: white ">
+             Sergio Perez
+          </div>
+          <button id="fechar7" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+       <div  class="col-md-3" style="text-align: center;border-left:solid black 1px ;margin-top: 2%;">
+        <img id="imagemalfaromeo" src="img/alfaromeofinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="alfaromeo" style="display: none" class="col-md-12">
+          <h3>Pilotos</h3>
+          <div  class="col-md-6">
+             <img src="img/giovinazzi.png" style="width:100% ;height: 100px;background-color: white ">
+             Antonio Giovinazzi
+          </div>
+          <div class="col-md-6">
+              <img src="img/kimiraikonnen.png" style="width:100% ;height: 100px;background-color: white ">
+              Kimi Räikkönen
+          </div>
+          <button id="fechar8" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+       <div  class="col-md-3" style="text-align: center;border-left:solid black 1px ;margin-top: 2%;">
+        <img id="imagemhaas" src="img/haasfinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="haas" style="display: none" class="col-md-12">
+          <h3>Pilotos</h3>
+          <div  class="col-md-6">
+             <img src="img/kevinmagnussen.png" style="width:100% ;height: 100px;background-color: white ">
+            Kevin Magnussen
+          </div>
+          <div class="col-md-6">
+              <img src="img/romaingrosjean.png" style="width:100% ;height: 100px;background-color: white ">
+             Romain Grosjean
+          </div>
+          <button id="fechar9" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+       <div  class="col-md-3" style="text-align: center;border-left:solid black 1px ;margin-top: 2%;">
+        <img id="imagemwilliams" src="img/williamsfinal.png" style="width:100% ;height: 80%;background-color: white">
+        <div id="williams" style="display: none" class="col-md-12">
+          <h3>Pilotos</h3>
+          <div  class="col-md-6">
+             <img src="img/russel.png" style="width:100% ;height: 100px;background-color: white ">
+             George Russell
+          </div>
+          <div class="col-md-6">
+              <img src="img/kubica.png" style="width:100% ;height: 100px;background-color: white ">
+            Robert Kubica
+          </div>
+          <button id="fechar10" style="color:black; border-radius: 25px;">Fechar</button>
+       </div>
+      </div>
+
+    </div>
+  </div>  
+</div>
+
+<footer id="footer" style="margin-top: 23px; footer">
+  </br>
+  <p>With the help of <a href="https://www.w3schools.com" target="_blank">W3Schools</a> & <a href="https://www.w3schools.com/bootstrap/default.asp" target="_blank">Bootstrap</a></p>
+  <button style="margin-left: 45%" id="myBtn" onclick="topFunction()" class="btn default"><img src="img/up_arrow.png" style="margin-left: -10px; margin-top:-5px; width: 25px; height: 25px"></img><b>  Voltar ao início</b></button>
+</footer>
+</body>
+<script src="script.js"></script>
+<script type="text/javascript">
+
+
+
+</script>
+</html>

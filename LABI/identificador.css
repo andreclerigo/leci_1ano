@@ -1,0 +1,16 @@
+<head>
+<style>
+table, td, thi {
+border: 1px solid black;
+}
+#coldest {
+background-color: lightblue;
+}
+.cold {
+background-color: cyan;
+}
+.hot {
+background-color: orange;
+}
+</style>
+</head>
