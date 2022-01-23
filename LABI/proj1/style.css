@@ -200,12 +200,13 @@ h1 {
 
 .img-with-text {
     text-align: center;
-    width: 650px;
+    width: 250%;
 }
  
 .img-with-text img {
     display: block;
-    margin: 0 auto;
+    margin-right: 10%;
+    margin-left: 20%;
 }
 
 .column {
@@ -265,14 +266,14 @@ h1 {
 
 .flip-card {
   background-color: transparent;
-  width: 350px;
+  width: 380px;
   height: 350px;
   perspective: 1000px;
 }
 
 .flip-card-inner {
   position: relative;
-  width: 350px;
+  width: 380px;
   height: 350px;
   text-align: center;
   transition: transform 0.6s;
@@ -285,7 +286,7 @@ h1 {
 
 .flip-card-front, .flip-card-back {
   position: absolute;
-  width: 350px;
+  width: 380px;
   height: 350px;
   backface-visibility: hidden;
 }
@@ -371,3 +372,16 @@ html, body{
   border-bottom-right-radius: 25px;
   margin-bottom: 10px;
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  margin-bottom: 1%;
+  padding: 8px;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
